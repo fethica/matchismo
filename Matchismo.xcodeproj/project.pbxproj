@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA5045C418539C8E00C5B52A /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5045C318539C8E00C5B52A /* Card.m */; };
 		CADFAC2618525026005E7244 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADFAC2518525026005E7244 /* Foundation.framework */; };
 		CADFAC2818525026005E7244 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADFAC2718525026005E7244 /* CoreGraphics.framework */; };
 		CADFAC2A18525026005E7244 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADFAC2918525026005E7244 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA5045C218539C8E00C5B52A /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
+		CA5045C318539C8E00C5B52A /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
 		CADFAC2218525026005E7244 /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADFAC2518525026005E7244 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CADFAC2718525026005E7244 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA5045C51853A0F700C5B52A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA5045C218539C8E00C5B52A /* Card.h */,
+				CA5045C318539C8E00C5B52A /* Card.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		CADFAC1918525026005E7244 = {
 			isa = PBXGroup;
 			children = (
@@ -112,8 +124,7 @@
 		CADFAC2B18525026005E7244 /* Matchismo */ = {
 			isa = PBXGroup;
 			children = (
-				CADFAC3418525026005E7244 /* CardGameAppDelegate.h */,
-				CADFAC3518525026005E7244 /* CardGameAppDelegate.m */,
+				CA5045C51853A0F700C5B52A /* Model */,
 				CADFAC3718525026005E7244 /* Main.storyboard */,
 				CADFAC3A18525026005E7244 /* CardGameViewController.h */,
 				CADFAC3B18525026005E7244 /* CardGameViewController.m */,
@@ -126,6 +137,8 @@
 		CADFAC2C18525026005E7244 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CADFAC3418525026005E7244 /* CardGameAppDelegate.h */,
+				CADFAC3518525026005E7244 /* CardGameAppDelegate.m */,
 				CADFAC2D18525026005E7244 /* Matchismo-Info.plist */,
 				CADFAC2E18525026005E7244 /* InfoPlist.strings */,
 				CADFAC3118525026005E7244 /* main.m */,
@@ -253,6 +266,7 @@
 				CADFAC3618525026005E7244 /* CardGameAppDelegate.m in Sources */,
 				CADFAC3C18525026005E7244 /* CardGameViewController.m in Sources */,
 				CADFAC3218525026005E7244 /* main.m in Sources */,
+				CA5045C418539C8E00C5B52A /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +475,7 @@
 				CADFAC5618525026005E7244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CADFAC5718525026005E7244 /* Build configuration list for PBXNativeTarget "MatchismoTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +484,7 @@
 				CADFAC5918525026005E7244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
