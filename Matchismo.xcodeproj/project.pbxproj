@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CA5045C418539C8E00C5B52A /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5045C318539C8E00C5B52A /* Card.m */; };
+		CA5045C81853A3B800C5B52A /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5045C71853A3B800C5B52A /* Deck.m */; };
 		CADFAC2618525026005E7244 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADFAC2518525026005E7244 /* Foundation.framework */; };
 		CADFAC2818525026005E7244 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADFAC2718525026005E7244 /* CoreGraphics.framework */; };
 		CADFAC2A18525026005E7244 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADFAC2918525026005E7244 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* Begin PBXFileReference section */
 		CA5045C218539C8E00C5B52A /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
 		CA5045C318539C8E00C5B52A /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		CA5045C61853A3B800C5B52A /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
+		CA5045C71853A3B800C5B52A /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
 		CADFAC2218525026005E7244 /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADFAC2518525026005E7244 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CADFAC2718525026005E7244 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -86,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				CA5045C218539C8E00C5B52A /* Card.h */,
+				CA5045C61853A3B800C5B52A /* Deck.h */,
+				CA5045C71853A3B800C5B52A /* Deck.m */,
 				CA5045C318539C8E00C5B52A /* Card.m */,
 			);
 			name = Model;
@@ -263,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA5045C81853A3B800C5B52A /* Deck.m in Sources */,
 				CADFAC3618525026005E7244 /* CardGameAppDelegate.m in Sources */,
 				CADFAC3C18525026005E7244 /* CardGameViewController.m in Sources */,
 				CADFAC3218525026005E7244 /* main.m in Sources */,
