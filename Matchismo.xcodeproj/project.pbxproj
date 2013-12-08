@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA10F4BC185502DC0005C936 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = CA10F4BB185502DC0005C936 /* CardMatchingGame.m */; };
 		CA5045C418539C8E00C5B52A /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5045C318539C8E00C5B52A /* Card.m */; };
 		CA5045C81853A3B800C5B52A /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5045C71853A3B800C5B52A /* Deck.m */; };
 		CA5045CB1853A91300C5B52A /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5045CA1853A91300C5B52A /* PlayingCard.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA10F4BA185502DC0005C936 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
+		CA10F4BB185502DC0005C936 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
 		CA5045C218539C8E00C5B52A /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
 		CA5045C318539C8E00C5B52A /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
 		CA5045C61853A3B800C5B52A /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
@@ -102,6 +105,8 @@
 				CA5045CA1853A91300C5B52A /* PlayingCard.m */,
 				CA5045CC1853B37100C5B52A /* PlayingCardDeck.h */,
 				CA5045CD1853B37100C5B52A /* PlayingCardDeck.m */,
+				CA10F4BA185502DC0005C936 /* CardMatchingGame.h */,
+				CA10F4BB185502DC0005C936 /* CardMatchingGame.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 				CA5045C81853A3B800C5B52A /* Deck.m in Sources */,
 				CADFAC3618525026005E7244 /* CardGameAppDelegate.m in Sources */,
 				CADFAC3C18525026005E7244 /* CardGameViewController.m in Sources */,
+				CA10F4BC185502DC0005C936 /* CardMatchingGame.m in Sources */,
 				CA5045CE1853B37100C5B52A /* PlayingCardDeck.m in Sources */,
 				CADFAC3218525026005E7244 /* main.m in Sources */,
 				CA5045C418539C8E00C5B52A /* Card.m in Sources */,
