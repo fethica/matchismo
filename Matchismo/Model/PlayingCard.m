@@ -18,7 +18,7 @@
 @synthesize suit = _suit; //Because we provide setter & getter
 
 + (NSArray *)validSuits {
-    return @[@"♥︎", @"♦︎", @"♠︎", @"♣︎"];
+    return @[@"♥️", @"♦️", @"♠️", @"♣️"];
 }
 
 - (void)setSuit:(NSString *)suit {
